@@ -1,5 +1,5 @@
 /* eslint-disable camelcase */
-import { countryFlag, weatherIcon, weatherBackground } from '../helpers_api/open';
+import { countryFlag, weatherIcon } from '../helpers_api/open';
 import temperature from '../helpers_api/convert';
 import {
   c_city_name,
@@ -10,7 +10,6 @@ import {
   not_found,
   w_c_info,
   loader,
-  body,
 } from '../helpers_api/element';
 
 export const displayInfo = ({
@@ -28,8 +27,6 @@ export const displayInfo = ({
   c_c_icon.get().src = weatherIcon(icon);
 
   c_others.setText(`Feels Like ${temperature(feels_like, isF)} | ${description} | Humidity ${humidity}%`);
-
-  body.get().style.backgroundImage = `url('${weatherBackground(icon)}')`;
 
   loader.hide();
   not_found.hide();

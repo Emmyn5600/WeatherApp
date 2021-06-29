@@ -36,7 +36,6 @@ export const c_c_value = new Element().find('#c-c-value');
 export const c_c_icon = new Element().find('#c-c-icon');
 
 export const c_others = new Element().find('#c-others');
-export const c_times = new Element().find('#c-times');
 
 export const not_found = new Element().find('#not-found');
 export const w_c_info = new Element().find('#w-c-info');

@@ -3,6 +3,7 @@ body {
     padding: 0;
     background-color: #d67e7e;
     background-repeat: repeat;
+    background-image: url(https://icons.iconarchive.com/icons/pixelkit/flat-jewels/512/Weather-icon.png);
   }
   
   button,
@@ -33,7 +34,7 @@ body {
   
   .content {
     width: 600px;
-    height: 600px;
+    height: 650px;
     border-radius: 10px;
     background-color: white;
     box-shadow: 0 0 5px #b3b3b3;
@@ -89,4 +90,15 @@ body {
       font-size: 20px;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       font-weight: 500;
+      font-weight: 700;
+color: #000;
+text-align: center;
+border-radius: 6px;
+width: 170px;
+height: 40px;
+font-size: 15px;
+text-transform: uppercase;
+cursor: pointer;
+margin-bottom: 20px;
+background-color: #daf6e6;
   }
