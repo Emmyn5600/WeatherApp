@@ -31,7 +31,17 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
     Step 1: git clone https://github.com/Emmyn5600/WeatherApp.git
     
-    Step 2: open live-server
+    Step 2: cd WeatherApp
+
+
+If you want to repack the file
+
+- Run `npm install` on the terminal to install dependancies
+- Run `npx webpack` to bundle the files in the src folder & product ouput in dist folder
+
+  or
+
+- Go to the dist folder and open index.html
 
 ## Author
 
