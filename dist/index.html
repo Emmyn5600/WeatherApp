@@ -21,6 +21,54 @@
             <input type="text" class="py-2 px-3 mt-4 text-center" name="city" id="city" placeholder="City">
         </form>
         </div>
+        <div id="not-found" style="display: none;" class=" align-items-center justify-content-center mt-5">
+            <small>Couldn't find the city you are looking for, please try again...</small>
+        </div>
+          <div id="w-c-info" style="display: none;">
+            <div class="d-flex align-items-center justify-content-center mt-5">
+              <div class="d-flex align-items-center">
+                <h1 id="c-city-name" class="mx-2">Kigali, RW</h1>
+                <img id="c-c-flag" class="mx-2 flag" src="https://www.countryflags.io/RW/flat/64.png" alt="flag">
+              </div>
+            </div>
+            <div class="d-flex flex-column align-items-center justify-content-center">
+              <div class="d-flex c-weather-num-info align-items-center justify-content-center">
+                <div class="d-flex align-items-center">
+                  <p id="c-c-value" class="c-value">25°C</p>
+                  <img id="c-c-icon" src="https://icons.iconarchive.com/icons/pixelkit/flat-jewels/512/Weather-icon.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+              <p id="c-others">Feels Like 25C | Light Rain | Humidity 42%</p>
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+              <small id="c-times">Sunrise: 06:35 AM | LSunset: 06:35 PM</small>
+            </div>
+            <div class="switch-container d-flex align-items-center justify-content-center mt-4">
+              <div class="align-center">
+                <label class="switch">
+                  <input id="checkbox" class="checkbox" type="checkbox"></input>
+                  <span class="slider round align-center">
+                    <div class="slider-nd">
+                      <span>C</span>
+                      <span>F</span>
+                    </div>
+                  </span>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div id="loader" class="loader align-items-center justify-content-center" style="display: block;">
+            <div class="lds-ripple">
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+      <script src="main.js"></script>
     
 </body>
 </html>
