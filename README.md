@@ -4,7 +4,7 @@
 
 > A weather app: is an app that pulls data from the OpenWeatherMap API to allow users to search for and view the forecast in cities worldwide. Built with JavaScript using webpack and async functions.
 
-![](../assets/images/weather.png)
+![](./assets/images/weather.png)
 
 
 > A Weather App is part of Full-Stack JavaScript Curriculum in the [the Odin Project’s](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/weather-app).
