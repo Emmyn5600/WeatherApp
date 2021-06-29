@@ -23,10 +23,10 @@
             <button class="search-button">Search</button>
         </form>
         </div>
-        <div id="not-found" style="display: none;" class=" align-items-center justify-content-center mt-5">
+        <div id="not-found" class=" align-items-center justify-content-center mt-5">
             <small>Couldn't find the city you are looking for, please try again...</small>
         </div>
-          <div id="w-c-info" style="display: none;">
+          <div id="w-c-info">
             <div class="d-flex align-items-center justify-content-center mt-5">
               <div class="d-flex align-items-center">
                 <h1 id="c-city-name" class="mx-2">Kigali, RW</h1>
@@ -37,7 +37,7 @@
               <div class="d-flex c-weather-num-info align-items-center justify-content-center">
                 <div class="d-flex align-items-center">
                   <p id="c-c-value" class="c-value">25°C</p>
-                  <img id="c-c-icon" src="https://icons.iconarchive.com/icons/pixelkit/flat-jewels/512/Weather-icon.png" alt="">
+                  <img id="c-c-icon" src="https://icons.iconarchive.com/icons/pixelkit/flat-jewels/512/Weather-icon.png" alt="icon">
                 </div>
               </div>
             </div>
@@ -49,20 +49,20 @@
             </div>
             <div class="switch-container d-flex align-items-center justify-content-center mt-4">
               <div class="align-center">
+                <div class="slider-nd">
                 <label class="switch">
-                  <input id="checkbox" class="checkbox" type="checkbox"></input>
-                  <span class="slider round align-center">
-                    <div class="slider-nd">
+                  <input id="checkbox" class="checkbox" type="checkbox">
+                      <span class="slider round align-center">
                       <span>Celsius °C</span><br>
                       <span>To </span> <br>
                       <span>Fahrenheit°F</span>
-                    </div>
-                  </span>
-                </label>
+                      </span>
+                 </label>
+              </div>
               </div>
             </div>
           </div>
-          <div id="loader" class="loader align-items-center justify-content-center" style="display: block;">
+          <div id="loader" class="loader align-items-center justify-content-center">
             <div class="cool">
               <div></div>
               <div></div>
