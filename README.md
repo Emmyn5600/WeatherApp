@@ -1,4 +1,21 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<p align="center">
+  <a href="https://www.microverse.org/">
+    <img alt="Microverse" src="https://img.shields.io/badge/-Microverse-blueviolet?style=flat-square">
+  </a>
+  <a href="https://github.com/Emmyn5600/PrivateEvent/blob/development/LICENSE">
+    <img alt="MIT Licensed" src="https://img.shields.io/github/license/Emmyn5600/WeatherApp?style=flat-square">
+  </a>
+  <a href="https://github.com/Emmyn5600/PrivateEvent">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Emmyn5600/WeatherApp/development?color=blue&style=flat-square">
+  </a>
+   <a href="https://github.com/Emmyn5600/PrivateEvent">
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Emmyn5600/WeatherApp?color=pink&label=%E2%98%85%20stars%20&style=flat-square">
+  </a>
+  <a href="https://github.com/Emmyn5600/PrivateEvent">
+    <img alt="GitHub followers" src="https://img.shields.io/github/followers/Emmyn5600?color=yellow&logo=github&style=flat-square">
+  </a>
+</p>
+</p>
 
 # The Weather App
 
